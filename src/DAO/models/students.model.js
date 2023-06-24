@@ -2,8 +2,8 @@
 import { Schema, model } from 'mongoose';
 
 const studentSchema = new Schema({
-  first_name: String,
-  last_name: String,
+  firstName: String,
+  lastName: String,
   email: String,
   gender: String,
   courses: {
