@@ -31,7 +31,7 @@ app.use(session({ secret: 'un-re-secreto', resave: true, saveUninitialized: true
 
 app.use(
   session({
-    store: MongoStore.create({ mongoUrl: 'mongodb+srv://guillermofergnani:d3IUa8A4QOAZkoQa@guille-cluster.pzfq0ua.mongodb.net/', ttl: 86400 * 7 }),
+    store: MongoStore.create({ mongoUrl: '', ttl: 86400 * 7 }),
     secret: 'un-re-secreto',
     resave: true,
     saveUninitialized: true,
