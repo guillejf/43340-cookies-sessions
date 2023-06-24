@@ -27,7 +27,7 @@ import { UserModel } from './DAO/models/users.model.js';
 import { OrderModel } from './DAO/models/order.model.js';
 export async function connectMongo() {
   try {
-    await connect('mongodb+srv://guillermofergnani:d3IUa8A4QOAZkoQa@guille-cluster.pzfq0ua.mongodb.net/');
+    await connect('');
     console.log('plug to mongo');
     /* const res = await UserModel.paginate({}, { limit: 5, page: 1 });
     console.log(res); */
